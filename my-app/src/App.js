@@ -1,10 +1,10 @@
 import './App.css';
-import FunctionalGreetingWithProps from './components/FunctionalGreetingsWithProps';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 
 function App() {
   return (
     <div className="App">
-      <FunctionalGreetingWithProps />
+      <MethodsAsPropsParent />
     </div>
   );
 }

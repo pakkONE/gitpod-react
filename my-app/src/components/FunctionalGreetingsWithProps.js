@@ -4,6 +4,6 @@ import React from 'react';
 //     return <h1>Hello from React!</h1>
 // };
 
-const FunctionalGreetingWithProps = () => <h1>Hello!</h1>
+const FunctionalGreetingWithProps = (props) => <h1>Hello {props.name}, {props.greeting}! You do not look a day older than {props.age}.</h1>
 
 export default FunctionalGreetingWithProps;
